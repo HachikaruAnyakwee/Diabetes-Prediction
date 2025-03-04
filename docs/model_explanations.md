@@ -15,6 +15,8 @@ The Generalized Linear Model (GLM) is an extension of linear regression that all
 
 ### **Results**
 - **Accuracy**: 75.32%
+- **Recall**: 61.82%
+- **F1-Score**: 64.15%
 - GLM provided insights into how features like glucose and BMI contribute to diabetes risk.
 
 ---
@@ -30,7 +32,9 @@ A Decision Tree is a flowchart-like structure that splits data into branches bas
 - The process continues until the tree reaches a stopping condition (e.g., a maximum depth or no further splits are possible).
 
 ### **Results**
-- **Accuracy**: 85.71%
+- **Accuracy**: 79.22%
+- **Recall**: 87.27%
+- **F1-Score**: 75.00%
 - The Decision Tree was easy to interpret but prone to overfitting.
 
 ---
@@ -45,7 +49,9 @@ The Random Forest is an ensemble model that combines multiple Decision Trees to 
 - Combines their predictions using a majority vote (for classification).
 
 ### **Results**
-- **Accuracy**: 92.21%
+- **Accuracy**: 94.81%
+- **Recall**: 89.09%
+- **F1-Score**: 92.45%
 - The Random Forest outperformed all other models and showed balanced precision and recall.
 
 ---
@@ -60,7 +66,9 @@ Logistic Regression is a simple and widely used algorithm for binary classificat
 - The logistic function maps the weighted sum of features to a probability.
 
 ### **Results**
-- **Accuracy**: 78.57%
+- **Accuracy**: 77.27%
+- **Recall**: 61.82%
+- **F1-Score**: 66.02%
 - While not the most accurate, Logistic Regression provided a clear understanding of feature importance.
 
 ---

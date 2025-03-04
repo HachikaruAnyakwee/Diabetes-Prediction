@@ -6,10 +6,10 @@ Diabetes is a global health challenge that affects millions of people. This proj
 ### **Project Objectives**
 - Explore and preprocess the diabetes dataset.
 - Train and evaluate machine learning models:
-  - Generalized Linear Model (GLM)
-  - Decision Tree
-  - Random Forest
-  - Logistic Regression
+    - Generalized Linear Model (GLM)
+    - Decision Tree
+    - Random Forest
+    - Logistic Regression
 - Compare model performances using metrics like accuracy, precision, recall, and F1-score.
 
 ## **Dataset**
@@ -20,17 +20,17 @@ The dataset was sourced from [Kaggle](https://www.kaggle.com/code/omeraydogddu/d
 - **Columns**: 9
 - **Target Variable**: `Outcome` (0 = No diabetes, 1 = Diabetes)
 
-| Feature                    | Description                              |
-|----------------------------|------------------------------------------|
-| Pregnancies                | Number of pregnancies                   |
-| Glucose                    | Plasma glucose concentration             |
-| BloodPressure              | Diastolic blood pressure (mm Hg)        |
-| SkinThickness              | Triceps skinfold thickness (mm)         |
-| Insulin                    | 2-hour serum insulin (mu U/ml)          |
-| BMI                        | Body Mass Index                         |
-| DiabetesPedigreeFunction   | Diabetes pedigree function              |
-| Age                        | Age of the patient                      |
-| Outcome                    | 0 or 1 (Diabetes or No Diabetes)        |
+| Feature                     | Description                                |
+|-----------------------------|--------------------------------------------|
+| Pregnancies                 | Number of pregnancies                      |
+| Glucose                     | Plasma glucose concentration               |
+| BloodPressure               | Diastolic blood pressure (mm Hg)           |
+| SkinThickness               | Triceps skinfold thickness (mm)            |
+| Insulin                     | 2-hour serum insulin (mu U/ml)             |
+| BMI                         | Body Mass Index                            |
+| DiabetesPedigreeFunction    | Diabetes pedigree function                 |
+| Age                         | Age of the patient                         |
+| Outcome                     | 0 or 1 (Diabetes or No Diabetes)           |
 
 ### **Why This Project Matters**
 Early detection of diabetes can save lives and reduce healthcare costs. Machine learning provides a way to build predictive tools that help identify high-risk individuals and allow for timely interventions.
@@ -66,9 +66,17 @@ Created charts to compare the results and identify the best-performing model.
 ---
 
 ## **Results**
-- The **Random Forest** model performed the best, with an accuracy of 92.21%.
-- The **Decision Tree** model was a close second, with an accuracy of 85.71%.
-- Both the GLM and Logistic Regression models had lower accuracies, but they provided insights into feature importance.
+
+| Model                 | Accuracy | Recall   | F1-Score |
+|-----------------------|----------|----------|----------|
+| **GLM** | 75.32%   | 61.82%   | 64.15%   |
+| **Decision Tree** | 79.22%   | 87.27%   | 75.00%   |
+| **Random Forest** | 94.81%   | 89.09%   | 92.45%   |
+| **Logistic Regression**| 77.27%   | 61.82%   | 66.02%   |
+
+- The **Random Forest** model performed the best, with an accuracy of 94.81%.
+- The **Decision Tree** model was a close second, with an accuracy of 79.22%.
+- The GLM and Logistic Regression models had lower accuracies, but they provided insights into feature importance.
 
 ---
 
@@ -78,4 +86,3 @@ Created charts to compare the results and identify the best-performing model.
 - Deploy the best model using a web app (e.g., Streamlit or Flask).
 
 ---
-
