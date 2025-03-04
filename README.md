@@ -9,15 +9,17 @@ This project explores predictive modeling for diabetes using multiple machine le
 
 We evaluate the models using various performance metrics, such as:
 - **Accuracy**
-- **ROC Score**
-- **R² Score**
-- **Mean Squared Error (MSE)**
+- **F1-Score**
+- **Recall**
+- **Precision**
+- **Confusion Matrix**
 
 The study aims to provide insights into the best-suited algorithm for diabetes prediction, with a focus on improving early detection and healthcare outcomes.
 
 ## **Dataset**
 - **Source:** [Diabetes Dataset - Kaggle](https://www.kaggle.com/code/omeraydogddu/diabetes-dataset-feature-engineering-eda/input)
 - **Description:** The dataset contains health-related metrics (e.g., glucose levels, BMI) and a binary outcome variable indicating diabetes status.
+- **Target Variable**: `Outcome` (0 = No diabetes, 1 = Diabetes)
 
 ## **Project Objectives**
 1. Address limitations of previous diabetes prediction approaches by testing diverse machine learning algorithms.
@@ -66,14 +68,18 @@ diabetes-prediction/
 
 2. View results in the results/ directory.
 
-## **Results**
-Model Comparison: Comparative analysis shows that the Random Forest model performed the best with the highest accuracy and balanced precision-recall.
-Performance Metrics:
-GLM: Accuracy 75.32%
-Decision Tree: Accuracy 85.71%
-Random Forest: Accuracy 92.21%
-Logistic Regression: Accuracy 78.57%
+## **Models and Performance**
+| Model                  | Accuracy | Recall  | F1-Score |
+|------------------------|---------|---------|----------|
+| **GLM**               | 75.32%  | 61.82%  | 64.15%   |
+| **Decision Tree**      | 79.22%  | 87.27%  | 75.00%   |
+| **Random Forest**      | 94.81%  | 89.09%  | 92.45%   |
+| **Logistic Regression**| 77.27%  | 61.82%  | 66.02%   |
 
+**Key Findings:**
+- **Random Forest** achieved the highest accuracy (94.81%) and F1-score (92.45%).
+- **Decision Tree** had the highest recall (87.27%), making it effective for minimizing false negatives.
+- **GLM and Logistic Regression** performed similarly, with moderate accuracy and recall.
 ## **Contributors**
 Hachikaru Anyakwee ([GitHub Profile](https://github.com/HachikaruAnyakwee))
 
