@@ -27,23 +27,25 @@ The study aims to provide insights into the best-suited algorithm for diabetes p
 3. Aid healthcare professionals in risk stratification for better resource allocation.
 
 ## **Project Structure**
-diabetes-prediction/
-│ ├── README.md # Overview of the project
-│ ├── requirements.txt # Dependencies
-│ ├── .gitignore # Ignored files
-│ ├── LICENSE # License
-│ ├── src/ # Source code
-│ │ ├── data_preparation.py
-│ │ ├── glm_analysis.py
-│ │ ├── decision_tree.py
-│ │ ├── random_forest.py
-│ │ └── logistic_regression.py
-│ ├── data/ # Dataset
-│ ├── results/ # Output files, graphs, evaluations
-│ ├── notebooks/ # Jupyter notebooks (optional)
-│ └── docs/ #Additional documentation
-│   ├── project_description.md # Detailed Project Description
-│   └── model_explanations.md # Model Explanations
+
+| Directory/File          | Description                                    |
+|--------------------------|------------------------------------------------|
+| `README.md`             | Overview of the project                        |
+| `requirements.txt`      | Project dependencies                           |
+| `.gitignore`            | Files and directories to ignore by Git        |
+| `LICENSE`               | Project license                                |
+| `src/`                  | Source code directory                          |
+| `src/data_preparation.py`| Script for data preprocessing and preparation |
+| `src/glm_analysis.py`   | Script for GLM model analysis                  |
+| `src/decision_tree.py`  | Script for Decision Tree model analysis         |
+| `src/random_forest.py`  | Script for Random Forest model analysis         |
+| `src/logistic_regression.py` | Script for Logistic Regression model analysis |
+| `data/`                 | Directory for the dataset                      |
+| `results/`              | Directory for output files, graphs, evaluations|
+| `notebooks/`            | Directory for Jupyter notebooks (optional)     |
+| `docs/`                 | Directory for additional documentation         |
+| `docs/project_description.md` | Detailed project description               |
+| `docs/model_explanations.md` | Model explanations and insights              |
 
 
 ## **Setup Instructions**
