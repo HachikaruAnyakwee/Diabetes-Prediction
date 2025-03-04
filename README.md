@@ -1,7 +1,7 @@
 # Diabetes Predictive Analysis Project
 
 ## **Introduction**
-This project explores predictive modeling for diabetes using multiple machine learning algorithms, including:
+In this project, I conduct a comparative analysis of machine learning models to determine the most effective approach for predicting diabetes based on health metrics, including:
 - **Generalized Linear Model (GLM)**
 - **Decision Tree**
 - **Random Forest**
