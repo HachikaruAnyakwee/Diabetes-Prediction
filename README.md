@@ -36,13 +36,8 @@ The study aims to provide insights into the best-suited algorithm for diabetes p
 | `LICENSE`               | Project license                                |
 | `src/`                  | Source code directory                          |
 | `src/data_preparation.py`| Script for data preprocessing and preparation |
-| `src/glm_analysis.py`   | Script for GLM model analysis                  |
-| `src/decision_tree.py`  | Script for Decision Tree model analysis         |
-| `src/random_forest.py`  | Script for Random Forest model analysis         |
-| `src/logistic_regression.py` | Script for Logistic Regression model analysis |
-| `data/`                 | Directory for the dataset                      |
-| `results/`              | Directory for output files, graphs, evaluations|
-| `notebooks/`            | Directory for Jupyter notebooks (optional)     |
+| `src/model_analysis.py`   | Script for GLM, DT, RF, LR model analysis    |
+| `Dataset/`                 | Directory for the dataset                      |
 | `docs/`                 | Directory for additional documentation         |
 | `docs/project_description.md` | Detailed project description               |
 | `docs/model_explanations.md` | Model explanations and insights              |
@@ -86,4 +81,4 @@ The study aims to provide insights into the best-suited algorithm for diabetes p
 Hachikaru Anyakwee ([GitHub Profile](https://github.com/HachikaruAnyakwee))
 
 ## **License**
-This project is licensed under the MIT License. See the LICENSE (https://github.com/HachikaruAnyakwee/Diabetes-Prediction-Project/edit/main/README.md#:~:text=t-,LICENSE,-README.md) file for details.4
+This project is licensed under the MIT License. See the LICENSE (https://github.com/HachikaruAnyakwee/diabetes-prediction/edit/main/README.md#:~:text=t-,LICENSE,-README.md) file for details.4
