@@ -25,13 +25,29 @@ The study aims to provide insights into the best-suited algorithm for diabetes p
 3. Aid healthcare professionals in risk stratification for better resource allocation.
 
 ## **Project Structure**
-diabetes-prediction/ │ ├── README.md # Overview of the project ├── requirements.txt # Dependencies ├── .gitignore # Ignored files ├── LICENSE # License (optional) ├── src/ # Source code │ ├── data_preparation.py │ ├── glm_analysis.py │ ├── decision_tree.py │ ├── random_forest.py │ └── logistic_regression.py ├── data/ # Dataset ├── results/ # Output files, graphs, evaluations ├── notebooks/ # Jupyter notebooks (optional) └── docs/ #Additional documentation
+diabetes-prediction/
+│ ├── README.md # Overview of the project
+│ ├── requirements.txt # Dependencies
+│ ├── .gitignore # Ignored files
+│ ├── LICENSE # License
+│ ├── src/ # Source code
+│ │ ├── data_preparation.py
+│ │ ├── glm_analysis.py
+│ │ ├── decision_tree.py
+│ │ ├── random_forest.py
+│ │ └── logistic_regression.py
+│ ├── data/ # Dataset
+│ ├── results/ # Output files, graphs, evaluations
+│ ├── notebooks/ # Jupyter notebooks (optional)
+│ └── docs/ #Additional documentation
+│   ├── project_description.md # Detailed Project Description
+│   └── model_explanations.md # Model Explanations
 
 
 ## **Setup Instructions**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/diabetes-prediction.git
+   git clone https://github.com/HachikaruAnyakwee/diabetes-prediction.git
    cd diabetes-prediction
 
 2. Create a virtual environment:
