@@ -1,4 +1,4 @@
-# Diabetes Prediction Project
+# Diabetes Predictive Analysis Project
 
 ## **Introduction**
 This project explores predictive modeling for diabetes using multiple machine learning algorithms, including:
